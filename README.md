@@ -27,13 +27,19 @@ steps optimizing data for visual assessment by physicians. However, at the core 
 
 ## Example
 
-The following examples show the impact of different methods for confidence map computation. The first image shows a B-Mode image of the neck. The second image shows the confidence maps generated using the [B-Mode image](https://www.sciencedirect.com/science/article/abs/pii/S1361841512000977). The last image shows the confidence map using the distribution-based approach, making using of the radio-frequency ultrasound data. As can be seen, the latter allows differentation between sections of the organ as it models the tissue speckle characteristics.
+The following examples show the impact of different methods for confidence map computation. The first image shows a B-Mode image of the neck. The second image shows the confidence maps generated leveraging the intensity values of [B-Mode image](https://www.sciencedirect.com/science/article/abs/pii/S1361841512000977). The last image shows the confidence map using the distribution-based approach, making using of the radio-frequency ultrasound data. As can be seen, the latter allows differentation between sections of the organ as it models the tissue speckle characteristics.
 
-![B-Mode ultrasounds image of the neck](https://github.com/TJKlein/Nakagami_Confidence_Maps/blob/master/imgs/img.jpg)
+| ![B-Mode ultrasounds image of the neck](https://github.com/TJKlein/Nakagami_Confidence_Maps/blob/master/imgs/img.jpg)
+|:--:| 
+| B-Mode Image |
 
-![B-Mode Confidence Map](https://github.com/TJKlein/Nakagami_Confidence_Maps/blob/master/imgs/map.jpg)
+|  ![B-Mode Confidence Map](https://github.com/TJKlein/Nakagami_Confidence_Maps/blob/master/imgs/map.jpg)
+|:--:| 
+| Ultrasound confidence map using the intensity information from B-Mode |
 
-![RF Distribution Confidence Map](https://github.com/TJKlein/Nakagami_Confidence_Maps/blob/master/imgs/MapD.jpg)
+|  ![RF Distribution Confidence Map](https://github.com/TJKlein/Nakagami_Confidence_Maps/blob/master/imgs/MapD.jpg)
+|:--:| 
+| Ultrasound confidence map using the distribution information from RF-Mode |
 
 
 ## Citation
