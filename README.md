@@ -25,6 +25,16 @@ prostate, showcasing the properties of the model. The probabilistic approach is 
 Conventional ultrasound images, commonly referred to as B-Mode, are the result of many processing
 steps optimizing data for visual assessment by physicians. However, at the core of ultrasound imaging pipeline lies the radio frequency (RF) data. Just lately, RF data has become more readily available to the research community such that its potential has not fully unveiled yet. From a data processing standpoint using RF data over B-Mode suggests many advantages. First of all, it is generally much richer in information due to the comparably higher resolution. Furthermore, it is not affected by non-linear post-processing steps such as log-compression and proprietary filter algorithms that change the noise statistics for reasons of improved visual appeal. In addition, it has nice probabilistic properties facilitating various ways of distributional modeling of ultrasound specific texture patterns, referred to as speckle noise. It is exactly this property this paper makes use of for the generation of distribution-based confidence maps.
 
+## Example
+
+The following examples show the impact of different methods for confidence map computation. The first image shows a B-Mode image of the neck. The second image shows the confidence maps generated using the [B-Mode image](https://www.sciencedirect.com/science/article/abs/pii/S1361841512000977). The last image shows the confidence map using the distribution-based approach, making using of the radio-frequency ultrasound data. As can be seen, the latter allows differentation between sections of the organ as it models the tissue speckle characteristics.
+
+![B-Mode ultrasounds image of the neck](https://github.com/TJKlein/Nakagami_Confidence_Maps/blob/master/imgs/img.jpg)
+
+![B-Mode Confidence Map](https://github.com/TJKlein/Nakagami_Confidence_Maps/blob/master/imgs/map.jpg)
+
+![RF Distribution Confidence Map](https://github.com/TJKlein/Nakagami_Confidence_Maps/blob/master/imgs/MapD.jpg)
+
 
 ## Citation
 If you use this code or find it somehow useful for your research, I would appreciate citation:
