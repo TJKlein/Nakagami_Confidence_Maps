@@ -20,4 +20,29 @@ tests are conducted on the application of shadow detection. Additionally,
 computed maps are presented for different organs such as neck, liver and
 prostate, showcasing the properties of the model. The probabilistic approach is shown to have beneficial features for image processing tasks.
 
+## Background
+
+Conventional ultrasound images, commonly referred to as B-Mode, are the result of many processing
+steps optimizing data for visual assessment by physicians. However, at the core of ultrasound imaging pipeline lies the radio frequency (RF) data. Just lately, RF data has become more readily available to the research community such that its potential has not fully unveiled yet. From a data processing standpoint using RF data over B-Mode suggests many advantages. First of all, it is generally much richer in information due to the comparably higher resolution. Furthermore, it is not affected by non-linear post-processing steps such as log-compression and proprietary filter algorithms that change the noise statistics for reasons of improved visual appeal. In addition, it has nice probabilistic properties facilitating various ways of distributional modeling of ultrasound specific texture patterns, referred to as speckle noise. It is exactly this property this paper makes use of for the generation of distribution-based confidence maps.
+
+
+## Citation
+If you use this code or find it somehow useful for your research, I would appreciate citation:
+
+```
+@InProceedings{10.1007/978-3-319-24571-3_71,
+author="Klein, Tassilo
+and Wells, William M.",
+editor="Navab, Nassir
+and Hornegger, Joachim
+and Wells, William M.
+and Frangi, Alejandro",
+title="RF Ultrasound Distribution-Based Confidence Maps",
+booktitle="Medical Image Computing and Computer-Assisted Intervention -- MICCAI 2015",
+year="2015",
+publisher="Springer International Publishing",
+address="Cham",
+pages="595--602"
+}
+```
 
