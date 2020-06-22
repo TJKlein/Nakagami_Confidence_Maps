@@ -1,6 +1,6 @@
 # Nakagami_Confidence_Maps
 
-Source code for the paper [Ultrasound confidence maps using random walks](https://robobees.seas.harvard.edu/files/nac/files/klein-miccai2015.pdf).
+Source code for the paper [RF Ultrasound Distribution-Based Confidence Maps](https://robobees.seas.harvard.edu/files/nac/files/klein-miccai2015.pdf).
 The code is based on [Ultrasound confidence maps using random walks](http://campar.in.tum.de/Main/AthanasiosKaramalisCode).
 
 
